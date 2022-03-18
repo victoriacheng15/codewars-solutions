@@ -36,3 +36,14 @@ function getSum(a,b) {
     return total;
   }
 }
+
+
+// updated solution
+function getSum(a,b) {
+  // 1. check if a === b, return a
+  // 2. check if a < b, return recursion function
+  // 3. check if b < a, return recursion function
+  if (a === b) return a;
+  if (a < b) return a + getSum(a + 1, b);
+  if (a > b) return a + getSum(a - 1, b);
+}
