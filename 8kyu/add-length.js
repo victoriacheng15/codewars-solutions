@@ -16,3 +16,8 @@ PREP：
 - add number with the string with space
 - output is array
 */
+
+function addLength(str) {
+  const array = str.split(' ');
+  return array.map((word) => `${word} ${word.length}`);
+}

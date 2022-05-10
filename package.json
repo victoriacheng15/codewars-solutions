@@ -1,0 +1,28 @@
+{
+  "name": "codewars-solutions",
+  "version": "1.0.0",
+  "description": "A colletion of kata problems and my solutions.",
+  "main": "index.js",
+  "scripts": {
+    "node": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriacheng15/codewars-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriacheng15/codewars-solutions/issues"
+  },
+  "homepage": "https://github.com/victoriacheng15/codewars-solutions#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  }
+}
