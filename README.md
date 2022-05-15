@@ -2,6 +2,8 @@
 
 A colletion of kata problems and my solutions. 
 
+Here is [my profile on codewars](https://www.codewars.com/users/victoriacheng15)
+
 ## How It's Made:
 
 All problems are solved with JavaScript.
@@ -33,5 +35,5 @@ I would like to go back to completed problems again to see how to improve codes 
 
 ## Lessons Learned:
 
-TBA
+I have been doing codewars daily for a couple of months. It is amazing to see different solutions for the same problem. The learning is endless. Keep doing it daily to allow me get familar with JavaScript functions and learn new ways to solve certain problems.
 
