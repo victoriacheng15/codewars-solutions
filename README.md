@@ -1,4 +1,4 @@
-# codewars - **Working In Process**
+# codewars -
 
 A colletion of kata problems and my solutions. 
 
