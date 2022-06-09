@@ -4,8 +4,7 @@
   "description": "A colletion of kata problems and my solutions.",
   "main": "index.js",
   "scripts": {
-    "mocha": "mocha",
-    "node": "nodemon"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "mocha": "^10.0.0",
+    "jest": "^28.1.1",
     "prettier": "^2.6.2"
   }
 }
