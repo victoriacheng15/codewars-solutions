@@ -1,8 +1,10 @@
-# codewars -
+# codewars
 
 A colletion of kata problems and my solutions. 
 
 Here is [my profile on codewars](https://www.codewars.com/users/victoriacheng15)
+
+> Note: It is highly recommedation that you completed it yourself before look solutions
 
 ## How It's Made:
 
@@ -11,6 +13,7 @@ All problems are solved with JavaScript.
 The process:
 - If it is the first time solution, use `add first solution` commit
 - If the solution is changed, use `add updated solution` commit
+- If the Jest test case was added, use `update solution with jest` commit
 
 ### General format
 
@@ -25,8 +28,15 @@ PREP:
 */
 
 function something() {
-  // do something
+  return 'something'
 }
+
+// Jest test
+describe('test case', () => {
+  it('should return the index of needle', () => {
+    expect(something()).toMatch('something');
+  });
+});
 ```
 
 #### Optimizations 
