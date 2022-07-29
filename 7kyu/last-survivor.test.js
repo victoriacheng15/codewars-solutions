@@ -30,3 +30,17 @@ function lastSurvivor(letters, coords) {
   }
   return array.join('');
 }
+
+describe('last survivor', () => {
+  it('should return last latter', () => {
+    expect(lastSurvivor('zbk', [2, 1])).toBe('z');
+  });
+
+  it('should return last latter', () => {
+    expect(lastSurvivor('kbc', [0, 1])).toBe('b');
+  });
+
+  it('should return last latter', () => {
+    expect(lastSurvivor('c', [])).toBe('c');
+  });
+});
